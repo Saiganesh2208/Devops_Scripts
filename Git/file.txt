@@ -1,0 +1,5 @@
+#filecommands
+
+touch file1
+echo "this is new one" > file1
+cat file1
