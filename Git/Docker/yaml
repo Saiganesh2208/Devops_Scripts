@@ -1,0 +1,33 @@
+
+-> yaml works on the key value pair
+->there should be a unique key and it can have one or more values
+-> yaml/yml is primarily used as defacto language for infrastructure automation
+-> yaml files can interchangebly works with json and xml files 
+
+
+
+yaml commands
+
+Institute: "Besant Technologies"
+Streams: ["Devops", "Cloud", "Data Science"]
+Classroom: ["Fan", "Chair", "Duster", "Monitor"] 
+
+or we can also written as 
+
+Classroom:
+  - "Fan"
+  - "Duster"
+  - "Monitor"
+  - "chair"
+
+Subjects:
+  -name: "Devops"
+   students: 5
+   time: "8:30-9:30"
+  -name: "AWS"
+   student: 4
+   time: "10:00-11:00"
+
+or we can aslo written as 
+
+Subjects: ["Devops" : ["Subject" : 5] : ["time" : "8:30-9:30"]]
